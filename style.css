@@ -1,14 +1,38 @@
+.header_image {
+  width: 100%;
+}
+
+@media only screen and (orientation: landscape) {
+  body {
+    width: 50%;
+  }
+}
+
 body {
   font-family: Tahoma, Geneva, sans-serif;
-  width: 50%;
   margin: auto;
-  background: white;
+  background-color: white;
+  color: #ff945b;
 }
 
 footer {
   text-align: right;
 }
 
-.header_image {
-  width: 100%;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 1em;
+}
+
+a {
+  color: #8aa2a2;
+}
+
+.list_header {
+  font-size: 1.5em;
+}
+
+.list_specifics {
+  column-count: 2;
 }
